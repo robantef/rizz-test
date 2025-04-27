@@ -1,0 +1,4 @@
+[
+  { "name": "Kuya Iwag", "level": 30, "hp": 2134, "attack": 180, "critRate": 1.8, "image": "/images/battler.png" },
+  { "name": "Kuya Raph", "level": 16, "hp": 2314, "attack": 220, "critRate": 1.9, "image": "/images/battler1.png" }
+]

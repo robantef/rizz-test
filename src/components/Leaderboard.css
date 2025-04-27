@@ -1,0 +1,25 @@
+.leaderboard {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+  }
+  
+  .player {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #444;
+  }
+  
+  .player img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .score {
+    font-weight: bold;
+  }

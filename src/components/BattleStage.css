@@ -1,0 +1,76 @@
+.battle-stage {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: red;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .battler-info {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+  }
+  
+  .battler-card {
+    text-align: center;
+    color: white;
+  }
+  
+  .battle-stage-images {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 50vh;
+  }
+  
+  .background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -9999;
+  }
+  
+  .battler {
+    width: 300px;
+    position: absolute;
+    bottom: 20px;
+  }
+  
+  .enemy {
+    right: 0;
+  }
+
+  .battle-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px 20px;
+    border-radius: 8px;
+  }
